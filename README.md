@@ -3,6 +3,9 @@ Car damage detection trained on peltarion dataset using Keras
 
 hdf5 file of model available at https://drive.google.com/file/d/1UpGFBdEjSNMeg506yzecg3BMbBSfN0_B/view?usp=sharing
 
+For trying out the model, open src/demo.ipynb and replace the images in test_images with your own
+
+
 Image input size is 224x224x3 (RGB). Model classifies images to one of the classes:
 0: 'bumper_dent'
 1:'bumper_scratch'
@@ -11,7 +14,7 @@ Image input size is 224x224x3 (RGB). Model classifies images to one of the class
 4:'glass_shatter'
 5:'head_lamp'
 6:'tail_lamp'
-7:'unknown'
+7:'unknown'<br>
 
 Model architecture:
 _________________________________________________________________
