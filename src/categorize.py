@@ -3,11 +3,12 @@
 Created on Mon Aug 16 13:42:24 2021
 
 @author: aman9221
+
+moving different classes of images to different folders. Easier to import as a tf.data.Dataset object and class labels are inferred
 """
 
 import pandas as pd
 import os
-# import shutil
 
 image_folder = "preprocessed/Image"
 target_folder = "categorize/Image"
