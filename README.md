@@ -1,5 +1,5 @@
 # car-damage-detection-peltarion
-Car damage detection trained on peltarion dataset using Keras (81.19% accuracy on validation set)
+Car damage detection trained on peltarion dataset using Keras (82.84% accuracy on validation set)
 
 hdf5 file of 82.94% accuracy model available at https://drive.google.com/file/d/1LaGm3aXrPWSWNQrTW8ridMiUWFGZZ2b4/view?usp=sharing
 <br>
