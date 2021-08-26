@@ -1,5 +1,5 @@
 # car-damage-detection-peltarion
-Car damage detection trained on peltarion dataset using Keras
+Car damage detection trained on peltarion dataset using Keras (81.19% accuracy on validation set)
 
 hdf5 file of 82.94% accuracy model available at https://drive.google.com/file/d/1LaGm3aXrPWSWNQrTW8ridMiUWFGZZ2b4/view?usp=sharing
 
@@ -8,6 +8,8 @@ For trying out the model:
 2. Replace the images in src/test_images with your own<br>
 3. Open src/demo.ipynb run<br>
 
+
+Dataset available for download here: https://peltarion.com/knowledge-center/documentation/terms/dataset-licenses/car-damage
 
 Image input size is 224x224x3 (RGB). Model classifies images to one of the classes:
 0: 'bumper_dent'
