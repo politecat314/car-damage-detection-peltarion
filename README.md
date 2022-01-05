@@ -18,7 +18,7 @@ hdf5 file of model available at https://drive.google.com/file/d/1LaGm3aXrPWSWNQr
 <br>
 <br>
 For testing this model, create a dir for each category in src/dataset/test<br>
-In each categorie's dir, create a dir called Image and keep the images there. For example, 1.jpg will be stored in: src/dataset/test/category1/Image/1.jpg. This is a necessary workaround due to problems with the `tf.keras.preprocessing.image_dataset_from_directory` function.<br>
+In each categorie's dir, create a dir called Image and keep the images there. For example, 1.jpg will be stored in: src/dataset/test/category1/Image/1.jpg. This is a necessary workaround due to problems with the ```tf.keras.preprocessing.image_dataset_from_directory``` function.<br>
 <br>
 
 ![Alt text](src/demo.jpg?raw=true "Demo")
