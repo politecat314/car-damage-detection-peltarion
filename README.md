@@ -3,10 +3,18 @@ Car damage detection trained on peltarion dataset using Keras (82.84% accuracy o
 
 hdf5 file of model available at https://drive.google.com/file/d/1LaGm3aXrPWSWNQrTW8ridMiUWFGZZ2b4/view?usp=sharing
 <br>
-<h3><b>For trying out the model:</b></h3> 
+<h3><b>Inference</b></h3> 
 1. download hdf5 file above and place inside src/model/<br>
 2. Replace the images in src/test_images with your own<br>
 3. Open src/demo.ipynb run<br>
+<br>
+
+<h3><b>For training the model</b></h3> 
+1. for each category of images, make a folder inside src/dataset/train/ and place images there<br>
+2. Create directory src/model<br>
+3. Run src/Transfer_ResNet152v2.ipynb<br>
+4. Models are saved inside src/model<br>
+5. Follow inference steps above to test the model<br>
 <br>
 
 ![Alt text](src/demo.jpg?raw=true "Demo")
